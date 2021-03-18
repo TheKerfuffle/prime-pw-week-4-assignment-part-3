@@ -19,7 +19,7 @@ const addItem = item =>{
 }
 
 const listItems = () => {
-  for (item of basket) {
+  for (let item of basket) {
     console.log(item);
   }
 }
