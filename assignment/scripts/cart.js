@@ -32,7 +32,7 @@ const removeItem = item => {
 }
 
 const empty = () => basket = [];
-
+ 
 console.log(`Basket is ${basket}`);
 console.log('Adding apples (expect true)', addItem('apples'));
 console.log('Adding grapes (expect true)', addItem('grapes'));
